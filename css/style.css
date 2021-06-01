@@ -39,3 +39,21 @@ h1 {
     width: 500px;
 }
 
+
+/* Second section */
+#tommy-sneakers {
+    height: 100vh;
+    background-color: green;
+    position: relative;
+}
+
+/* Third section */
+#converse-sneakers {
+    height: 100vh;
+    background-color: yellow;
+    position: relative;
+}
+
+#converse-sneakers h1 {
+    color: green;
+}
