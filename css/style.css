@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -56,4 +57,27 @@ h1 {
 
 #converse-sneakers h1 {
     color: green;
+}
+
+/* Nav menù */
+.nav-menù {
+    position: fixed;
+    z-index: 1;
+    top: 40px;
+    right: 10px;   
+}
+
+.nav-menù li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav-menù li a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 12px 14px;
+    border-radius: 50%;
+    font-size: 12px;
+    margin: 0 10px;   
 }
