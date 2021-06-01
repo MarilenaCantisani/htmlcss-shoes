@@ -5,3 +5,37 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: yellow;
+}
+
+/* Body */
+
+/* First section */
+#vans-sneakers {
+    height: 100vh;
+    background-color: red;
+    position: relative;
+}
+
+img {
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    width: 500px;
+}
+
