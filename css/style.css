@@ -14,10 +14,14 @@ body {
 /* Body */
 
 /* First section */
-#vans-sneakers {
+section {
     height: 100vh;
-    background-color: red;
+    width: 100%;
     position: relative;
+}
+
+#vans-sneakers {
+    background-color: red;
 }
 
 img {
@@ -43,16 +47,12 @@ h1 {
 
 /* Second section */
 #tommy-sneakers {
-    height: 100vh;
     background-color: green;
-    position: relative;
 }
 
 /* Third section */
 #converse-sneakers {
-    height: 100vh;
     background-color: yellow;
-    position: relative;
 }
 
 #converse-sneakers h1 {
